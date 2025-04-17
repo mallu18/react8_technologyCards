@@ -1,3 +1,4 @@
+import CardItem from './components/CardItem'
 import './App.css'
 
 const cardsList = [
@@ -40,7 +41,8 @@ const App = () => (
     <h1 className="heading">Learn 4.0 Technologies</h1>
     <p className="description">
       Get trained by alumni of IITs and top companies like Amazon, Microsoft,
-      Intel, Nvidia, Qualcomm, etc.
+      Intel, Nvidia, Qualcomm, etc. Learn directly from professionls involved in
+      Product Development.
     </p>
     <ul className="cards-container">
       {cardsList.map(eachItem => (
